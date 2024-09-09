@@ -1,0 +1,179 @@
+/*
+This is the colors of the website
+003049 = blue
+D62828 = red
+77F00 = orange
+FCBF49 = yellow
+EAE2B7 = wheat
+
+white shades
+edede9
+d6ccc2
+f5ebe0
+e3d5ca
+d5bdaf
+
+*/
+
+.body{
+
+    width: 700px;
+    
+    
+   
+
+}
+
+.main{
+    
+    background-color: #ffffff;
+
+}
+
+#divlogo{
+    width: 100px;
+
+}
+
+.unique{
+    display: block;
+    margin-bottom: 2px;
+    font-family: "Martian Mono", monospace;
+    font-size: 18px;
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+
+}
+.blackmeets{
+    color: black;
+    font-family: "Martian Mono", monospace;
+    font-size: 18px;
+   
+}
+
+/*logo hover*/
+
+.unique:hover{
+    color: #d62828;
+}
+
+.div-welcoming{
+    
+}
+.div1{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+     /* height: 200px; */
+     background-color: #fca311;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+ 
+}
+.topic{
+    color: #003049;
+    
+   
+}
+.div-menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}
+.div-menu p:hover{
+    color: #d62828;
+    font-weight: bold;
+    text-shadow: 0px 0px 4px white;
+}
+
+.div-menu a {
+    text-decoration: none; /* Removes the underline from links */
+    color: inherit; /* Inherit the color from the parent p element */
+    font-family: inherit; /* Inherit the font-family */
+}
+
+/* now i will move to the gallary part*/
+
+.div2-a{
+   
+    background-color: #fca311;
+    text-align: center;
+    color: #ffffff;
+}
+
+.div2-b{
+
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-direction: column;
+}
+
+/* image deatils such as size and so on */
+
+.img-spacifecation{
+    height: 200px;
+    
+    
+}
+
+.div2-b-sub{
+    display: block;
+    
+    padding: 5px;
+    margin-bottom: 10px;
+   
+
+}
+.father{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 2px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    
+}
+div{
+   
+}
+.divtext{
+    display: block;
+}
+.details{
+    display: block;
+    padding: 5px;
+    
+    width: 150px;
+    text-align: center;
+}
+a{
+    color: #d62828;
+}
+
+
+.footer{
+    display: block;
+    
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #fca311;
+
+}
+.father-footer{
+    display: flex;
+    justify-content:space-between;
+    padding: 2px;
+    
+}
